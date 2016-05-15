@@ -1,0 +1,1 @@
+A small Twitter bot that interacts with Reddit using Pywapi and Praw. This bot will tweet the top image and caption from /r/guineapigs and /r/rabbits at 7 am every morning to @AM_Guinea_Pigs. Sometimes it'll tweet 'None' or nothing at all. I have not investigated this yet.  

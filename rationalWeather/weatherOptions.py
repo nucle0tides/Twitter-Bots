@@ -1,0 +1,60 @@
+__author__ = 'Gabby'
+weatherCodes = {
+	"0": ["THIS IS CYCLONE WEATHER ALERT"],
+	"1": ["Currently at ISU, there is a tropical storm for some unknown reason."], 
+	"2": ["Currently at ISU, a hurricane has landed?"],
+	"3": ["*Dad voice* It's raining like cats and dogs out there!", "THIS IS CYCLONE WEATHER ALERT", "That wasn't thunder, just my stomach. Sorry. :/" , "Currently at ISU, there are severe thunderstorms."], 
+	"4": ["THIS IS CYCLONE WEATHER ALERT", "Currently at ISU, there are thunderstorms."],
+	"5": ["Currently at ISU there is rain and snow. Oh, and that squirrel is leucistic, not albino."],
+	"6": ["Currently at ISU there is rain and snow. Also, leucism is a reduction in all pigmentations, and not just melanin. #themoreyouknow"],
+	"7": ["Currently at ISU there is snow and sleet. Please read this: http://en.wikipedia.org/wiki/Leucism"], 
+	"8": ["Currently at ISU there is freezing drizzle and men who are still wearing shorts."],
+	"9": ["Why does Snoop Dog need an Umbrella? Fo'Drizzle"],
+	"10": ["Currently at ISU, freezing rain is pouring on poor individuals.", "Currently at ISU, students are regretting their choice to walk to class."],
+	"11": ["Rainy days and rainy nights >>>>>>>>", "Oh my gosh it's like my own personal rainymood! *Plays Bon Iver vinyl*", "What did one raindrop say to the other? Two's company, three's a cloud?", "What did the rain cloud wear under his rain coat? Thunder wear!"],
+	"12": ["Rainy days and rainy nights >>>>>>>>", "Oh my gosh it's like my own personal rainymood! *Plays Bon Iver vinyl*", "What did one raindrop say to the other? Two's company, three's a cloud?", "What did the rain cloud wear under his rain coat? Thunder wear!"],
+	"13": ["It snew today."],
+	"14": ["Just light lil snow showers now.", "It snew today"],
+	"15": ["Good news guys, we're in Antarctica now."],
+	"16":	["*47 Facebook and Twitter updates* IT'S SNOWING OUTSIDE OMG XD FIRST SNOW OF THE SEASON", "*ISU retweets 1000 snowy campus photos*", "Let's make a snowman."],
+	"17":	["hahahahhahahahahahahahahahaha sucks for literally everyone on campus that doesn't have covered parking. haahhahahaha", "It's hailing outside.", "OH HAIL NO"],  
+	"18":	["Ice pellets are literally falling from the sky.", "What does an ice storm write on? A sleet of paper."], 
+	"19": ["DUST BOWL PART TWO", "What type of sense of humor does a dust storm have? A very dry sense of humor."],
+	"20": ["Currently at ISU you can't see anything.", "Currently at ISU we are ONE WITH THE CLOUDS.", "What type of cloud is too lazy to get up? Fog.", "What did the cloud say when he was a little confused? My mind is a little foggy."],
+	"21": ["*mom voice* Wow, it sure is hazy outside."],
+	"22": ["Currently at ISU, it is smoky."],
+	"23": ["Winnie the Pooh: Happy 'Winds-day', Piglet."],
+	"24": ["Do you feel that? It's the winds of change.", "Did you fart? Because you just blew me away."],
+	"25": ["It's just cold."],
+	"26": ["Clouds are made up of droplets of water or ice crystals. ", "Look up! What type of clouds are in the sky?", "Clouds are white because the water droplets are large enough to scatter visible light which combine to produce a white light.", "If today's clouds are grey, surrounding clouds are casting a shadow on each other.", "What kind of clouds are in the sky right now? http://www.srh.noaa.gov/srh/jetstream/clouds/cloudwise/types.html", "How do you wrap a cloud? With a rainbow.", "What did the straight faced cloud say to the joking cloud? Are you cirrus?", "ISU's cloud storage capabilities have increased exponentially today.", "There's...............uh.............clouds in the sky."],
+	"27": ["Currently at ISU, it is mostly cloudy outside, but you cannot tell because it is night so.", "Currently at ISU, it is cloudy?"],
+	"28": ["Clouds are made up of droplets of water or ice crystals. ", "Look up! What type of clouds are in the sky?", "Clouds are white because the water droplets are large enough to scatter visible light which combine to produce a white light.", "If today's clouds are grey, surrounding clouds are casting a shadow on each other.", "What kind of clouds are in the sky right now? http://www.srh.noaa.gov/srh/jetstream/clouds/cloudwise/types.html", "How do you wrap a cloud? With a rainbow.", "What did the straight faced cloud say to the joking cloud? Are you cirrus?", "ISU's cloud storage capabilities have increased exponentially today.", "There's...............uh.............clouds in the sky."], 
+	"29": ["Currently at ISU, it is partly cloudy outside, but you cannot tell because it is night....so."],
+	"30": ["I'm more of a glass-half-full kind of bot. So it's partly sunny outside.", "Clouds are made up of droplets of water or ice crystals. ", "Look up! What type of clouds are in the sky?", "Clouds are white because the water droplets are large enough to scatter visible light which combine to produce a white light.", "If today's clouds are grey, surrounding clouds are casting a shadow on each other.", "What kind of clouds are in the sky right now? http://www.srh.noaa.gov/srh/jetstream/clouds/cloudwise/types.html", "How do you wrap a cloud? With a rainbow.", "What did the straight faced cloud say to the joking cloud? Are you cirrus?", "ISU's cloud storage capabilities have increased exponentially today.", "There's...............uh.............clouds in the sky."],
+	"31": ["This is the kind of weather that got VEISHEA cancelled.", "Go outside and look at the STARS?"],
+	"32":	["Currently at ISU it is sunny and cargo shorts are still not okay.", "Sunny....................................like in Philadelphia", "Take your sunglasses with you."],
+	"33":	["This is the kind of weather that got VEISHEA cancelled.", "Tonight's weather is good for confronting your own mortality."],
+	"34": ["Currently at ISU you'll hear awkward small talk over the clear skies.", "Currently at ISU it is my-dad-is-a-lawyer outfit weather.", "What a beautiful day to stay inside.", "You know what, I'm so sick of telling you what the weather is. Just go outside and look yourself. Take control of your life."],
+	"35": ["OH HAIL NO"],
+	"36": ["Are you an oven because u r hot."],
+	"37": ["THIS IS CYCLONE WEATHER ALERT", "Currently at ISU, there are isolated thunderstorms.", "I love the way they just *clenches fist* thunder all of those storms."],
+	"38": ["THIS IS CYCLONE WEATHER ALERT", "Currently at ISU, there are scattered thunderstorms.", "I love the way they just *clenches fist* thunder all of those storms."], 
+	"39": ["THIS IS CYCLONE WEATHER ALERT", "I love the way they just *clenches fist* thunder all of those showers."],
+	"40": ["I see you're wearing a white shirt while there are scattered showers. I too like to live dangerously.", "I love the way they just *clenches fist* scatter all of those showers."],
+	"41": ["Don't bother going to class.", "Currently at ISU, Texans are paralyzed with fear.", "Wow, I wonder how gross campus will look after all of this melts."],
+	"42": ["I love the way they just *clenches fist* scatter all of those snow showers.", "Currently at ISU, there are scattered snow showers."],
+	"43": ["Don't bother going to class.", "Currently at ISU, Texans are paralyzed with fear.", "Wow, I wonder how gross campus will look after all of this melts."],
+	"44": ["I'm more of a glass-half-full kind of bot. So it's partly sunny outside."],
+	"45": ["I love the way they just *clenches fist* thunder all of those showers."],
+	"46": ["What are snow showers? Just really wet snow? Come on Yahoo Weather."],
+	"47": ["I love the way they just *clenches fist* isolate all of those thundershowers.", "Currently at ISU, there are isolated thundershowers."],
+	"3200": ["Currently at ISU we're experiencing the apocalypse."],
+}
+
+windChill = {
+	"chill" : ["Currently at ISU it is a lot colder outside than it looks", "Currently at ISU you'll observe poor individuals who thought they didn't need a coat today. Wear a coat.", "Currently at ISU, there men who are still wearing shorts. Don't be like those men.", "Currently at ISU, you'll need about 12 pairs of socks, 40 scarves, and 90 pairs of gloves to protect your extremities.", "Currently at ISU, CyRide is at capacity because it is so COLD.", "Currently at ISU, students have turned into ice people." ]
+}
+
+December = {
+	'snowmen' : ["Currently at ISU it's beginning to look a lot like Christmas", "Currently at ISU I'm dreaming of a white Christmas", "Currently at ISU if you listen closely enough, you can hear Santa's sleigh bells.", "Is it Christmas yet?"]
+}
