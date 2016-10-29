@@ -29,6 +29,6 @@ def get_word(file):
     return current_word
 
 if __name__ == '__main__':
-    status = "Spread " + str(get_word('/home/gabbyortman/like-fire/all_words.txt').strip()) + " like wildfire!"
+    status = "Spread " + str(get_word('all_words.txt').strip()) + " like wildfire!"
     post_status(status)
     #print(status) 
