@@ -20,11 +20,15 @@ def post_status(status):
 def get_word(file): 
     with open(file, 'r') as f: 
         current_word = f.readline() 
-        leftover_words = f.readlines(True)
+        leftover_words = list(f)
+    #print(leftover_words[len(leftover_words) - 11:])
+    f.close()
     with open(file, 'w') as f: 
-        f.writelines(leftover_words[1:])  
+        f.writelines(leftover_words)
+    f.close()
     return current_word
 
 if __name__ == '__main__':
-    status = "Spread " + str(get_word('all_words.txt').strip()) + " like wildfire!"
-    post_status(status) 
+    status = "Spread " + str(get_word('/home/gabbyortman/like-fire/all_words.txt').strip()) + " like wildfire!"
+    post_status(status)
+    #print(status) 
